@@ -42,6 +42,7 @@ their default values.
 | `persistence.deleteEnabled` | Enable the deletion of image blobs and manifests by digest                                 | `nil`           |
 | `persistence.size`          | Amount of space to claim for PVC                                                           | `10Gi`          |
 | `persistence.storageClass`  | Storage Class to use for PVC                                                               | `-`             |
+| `persistence.volumeName  `  | Name of the PV bound to the PVC                                                            | `""`            |
 | `persistence.existingClaim` | Name of an existing PVC to use for config                                                  | `nil`           |
 | `serviceAccount.create`     | Create ServiceAccount                                                                      | `false`         |
 | `serviceAccount.name`       | ServiceAccount name                                                                        | `nil`           |
